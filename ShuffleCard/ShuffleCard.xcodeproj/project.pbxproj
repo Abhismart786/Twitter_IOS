@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		DD89CCF42CC0388400CA8573 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD89CCDB2CC0388200CA8573 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD89CCE22CC0388200CA8573;
+			remoteInfo = ShuffleCard;
+		};
+		DD89CCFE2CC0388400CA8573 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD89CCDB2CC0388200CA8573 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD89CCE22CC0388200CA8573;
+			remoteInfo = ShuffleCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD89CCE32CC0388200CA8573 /* ShuffleCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShuffleCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD89CCF32CC0388400CA8573 /* ShuffleCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShuffleCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD89CCFD2CC0388400CA8573 /* ShuffleCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShuffleCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		DD89CCE52CC0388200CA8573 /* ShuffleCard */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ShuffleCard;
+			sourceTree = "<group>";
+		};
+		DD89CCF62CC0388400CA8573 /* ShuffleCardTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ShuffleCardTests;
+			sourceTree = "<group>";
+		};
+		DD89CD002CC0388400CA8573 /* ShuffleCardUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ShuffleCardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD89CCE02CC0388200CA8573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD89CCF02CC0388400CA8573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD89CCFA2CC0388400CA8573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD89CCDA2CC0388200CA8573 = {
+			isa = PBXGroup;
+			children = (
+				DD89CCE52CC0388200CA8573 /* ShuffleCard */,
+				DD89CCF62CC0388400CA8573 /* ShuffleCardTests */,
+				DD89CD002CC0388400CA8573 /* ShuffleCardUITests */,
+				DD89CCE42CC0388200CA8573 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD89CCE42CC0388200CA8573 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD89CCE32CC0388200CA8573 /* ShuffleCard.app */,
+				DD89CCF32CC0388400CA8573 /* ShuffleCardTests.xctest */,
+				DD89CCFD2CC0388400CA8573 /* ShuffleCardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD89CCE22CC0388200CA8573 /* ShuffleCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD89CD072CC0388400CA8573 /* Build configuration list for PBXNativeTarget "ShuffleCard" */;
+			buildPhases = (
+				DD89CCDF2CC0388200CA8573 /* Sources */,
+				DD89CCE02CC0388200CA8573 /* Frameworks */,
+				DD89CCE12CC0388200CA8573 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				DD89CCE52CC0388200CA8573 /* ShuffleCard */,
+			);
+			name = ShuffleCard;
+			packageProductDependencies = (
+			);
+			productName = ShuffleCard;
+			productReference = DD89CCE32CC0388200CA8573 /* ShuffleCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD89CCF22CC0388400CA8573 /* ShuffleCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD89CD0A2CC0388400CA8573 /* Build configuration list for PBXNativeTarget "ShuffleCardTests" */;
+			buildPhases = (
+				DD89CCEF2CC0388400CA8573 /* Sources */,
+				DD89CCF02CC0388400CA8573 /* Frameworks */,
+				DD89CCF12CC0388400CA8573 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD89CCF52CC0388400CA8573 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DD89CCF62CC0388400CA8573 /* ShuffleCardTests */,
+			);
+			name = ShuffleCardTests;
+			packageProductDependencies = (
+			);
+			productName = ShuffleCardTests;
+			productReference = DD89CCF32CC0388400CA8573 /* ShuffleCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DD89CCFC2CC0388400CA8573 /* ShuffleCardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD89CD0D2CC0388400CA8573 /* Build configuration list for PBXNativeTarget "ShuffleCardUITests" */;
+			buildPhases = (
+				DD89CCF92CC0388400CA8573 /* Sources */,
+				DD89CCFA2CC0388400CA8573 /* Frameworks */,
+				DD89CCFB2CC0388400CA8573 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD89CCFF2CC0388400CA8573 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DD89CD002CC0388400CA8573 /* ShuffleCardUITests */,
+			);
+			name = ShuffleCardUITests;
+			packageProductDependencies = (
+			);
+			productName = ShuffleCardUITests;
+			productReference = DD89CCFD2CC0388400CA8573 /* ShuffleCardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD89CCDB2CC0388200CA8573 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					DD89CCE22CC0388200CA8573 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					DD89CCF22CC0388400CA8573 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = DD89CCE22CC0388200CA8573;
+					};
+					DD89CCFC2CC0388400CA8573 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = DD89CCE22CC0388200CA8573;
+					};
+				};
+			};
+			buildConfigurationList = DD89CCDE2CC0388200CA8573 /* Build configuration list for PBXProject "ShuffleCard" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD89CCDA2CC0388200CA8573;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = DD89CCE42CC0388200CA8573 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD89CCE22CC0388200CA8573 /* ShuffleCard */,
+				DD89CCF22CC0388400CA8573 /* ShuffleCardTests */,
+				DD89CCFC2CC0388400CA8573 /* ShuffleCardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD89CCE12CC0388200CA8573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD89CCF12CC0388400CA8573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD89CCFB2CC0388400CA8573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD89CCDF2CC0388200CA8573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD89CCEF2CC0388400CA8573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD89CCF92CC0388400CA8573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD89CCF52CC0388400CA8573 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD89CCE22CC0388200CA8573 /* ShuffleCard */;
+			targetProxy = DD89CCF42CC0388400CA8573 /* PBXContainerItemProxy */;
+		};
+		DD89CCFF2CC0388400CA8573 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD89CCE22CC0388200CA8573 /* ShuffleCard */;
+			targetProxy = DD89CCFE2CC0388400CA8573 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DD89CD052CC0388400CA8573 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DD89CD062CC0388400CA8573 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD89CD082CC0388400CA8573 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ShuffleCard/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cd.ShuffleCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD89CD092CC0388400CA8573 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ShuffleCard/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cd.ShuffleCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DD89CD0B2CC0388400CA8573 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cd.ShuffleCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShuffleCard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ShuffleCard";
+			};
+			name = Debug;
+		};
+		DD89CD0C2CC0388400CA8573 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cd.ShuffleCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShuffleCard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ShuffleCard";
+			};
+			name = Release;
+		};
+		DD89CD0E2CC0388400CA8573 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cd.ShuffleCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShuffleCard;
+			};
+			name = Debug;
+		};
+		DD89CD0F2CC0388400CA8573 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cd.ShuffleCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShuffleCard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD89CCDE2CC0388200CA8573 /* Build configuration list for PBXProject "ShuffleCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD89CD052CC0388400CA8573 /* Debug */,
+				DD89CD062CC0388400CA8573 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD89CD072CC0388400CA8573 /* Build configuration list for PBXNativeTarget "ShuffleCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD89CD082CC0388400CA8573 /* Debug */,
+				DD89CD092CC0388400CA8573 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD89CD0A2CC0388400CA8573 /* Build configuration list for PBXNativeTarget "ShuffleCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD89CD0B2CC0388400CA8573 /* Debug */,
+				DD89CD0C2CC0388400CA8573 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD89CD0D2CC0388400CA8573 /* Build configuration list for PBXNativeTarget "ShuffleCardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD89CD0E2CC0388400CA8573 /* Debug */,
+				DD89CD0F2CC0388400CA8573 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD89CCDB2CC0388200CA8573 /* Project object */;
+}

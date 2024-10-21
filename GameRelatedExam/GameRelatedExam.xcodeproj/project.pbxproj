@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		DDE1BE2B2CBC3114001F2007 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDE1BE122CBC3113001F2007 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDE1BE192CBC3113001F2007;
+			remoteInfo = GameRelatedExam;
+		};
+		DDE1BE352CBC3114001F2007 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDE1BE122CBC3113001F2007 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDE1BE192CBC3113001F2007;
+			remoteInfo = GameRelatedExam;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DDE1BE1A2CBC3113001F2007 /* GameRelatedExam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameRelatedExam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDE1BE2A2CBC3114001F2007 /* GameRelatedExamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameRelatedExamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDE1BE342CBC3114001F2007 /* GameRelatedExamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameRelatedExamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		DDE1BE1C2CBC3113001F2007 /* GameRelatedExam */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = GameRelatedExam;
+			sourceTree = "<group>";
+		};
+		DDE1BE2D2CBC3114001F2007 /* GameRelatedExamTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = GameRelatedExamTests;
+			sourceTree = "<group>";
+		};
+		DDE1BE372CBC3114001F2007 /* GameRelatedExamUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = GameRelatedExamUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDE1BE172CBC3113001F2007 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE1BE272CBC3114001F2007 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE1BE312CBC3114001F2007 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDE1BE112CBC3113001F2007 = {
+			isa = PBXGroup;
+			children = (
+				DDE1BE1C2CBC3113001F2007 /* GameRelatedExam */,
+				DDE1BE2D2CBC3114001F2007 /* GameRelatedExamTests */,
+				DDE1BE372CBC3114001F2007 /* GameRelatedExamUITests */,
+				DDE1BE1B2CBC3113001F2007 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDE1BE1B2CBC3113001F2007 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDE1BE1A2CBC3113001F2007 /* GameRelatedExam.app */,
+				DDE1BE2A2CBC3114001F2007 /* GameRelatedExamTests.xctest */,
+				DDE1BE342CBC3114001F2007 /* GameRelatedExamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDE1BE192CBC3113001F2007 /* GameRelatedExam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDE1BE3E2CBC3114001F2007 /* Build configuration list for PBXNativeTarget "GameRelatedExam" */;
+			buildPhases = (
+				DDE1BE162CBC3113001F2007 /* Sources */,
+				DDE1BE172CBC3113001F2007 /* Frameworks */,
+				DDE1BE182CBC3113001F2007 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				DDE1BE1C2CBC3113001F2007 /* GameRelatedExam */,
+			);
+			name = GameRelatedExam;
+			packageProductDependencies = (
+			);
+			productName = GameRelatedExam;
+			productReference = DDE1BE1A2CBC3113001F2007 /* GameRelatedExam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDE1BE292CBC3114001F2007 /* GameRelatedExamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDE1BE412CBC3114001F2007 /* Build configuration list for PBXNativeTarget "GameRelatedExamTests" */;
+			buildPhases = (
+				DDE1BE262CBC3114001F2007 /* Sources */,
+				DDE1BE272CBC3114001F2007 /* Frameworks */,
+				DDE1BE282CBC3114001F2007 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDE1BE2C2CBC3114001F2007 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DDE1BE2D2CBC3114001F2007 /* GameRelatedExamTests */,
+			);
+			name = GameRelatedExamTests;
+			packageProductDependencies = (
+			);
+			productName = GameRelatedExamTests;
+			productReference = DDE1BE2A2CBC3114001F2007 /* GameRelatedExamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DDE1BE332CBC3114001F2007 /* GameRelatedExamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDE1BE442CBC3114001F2007 /* Build configuration list for PBXNativeTarget "GameRelatedExamUITests" */;
+			buildPhases = (
+				DDE1BE302CBC3114001F2007 /* Sources */,
+				DDE1BE312CBC3114001F2007 /* Frameworks */,
+				DDE1BE322CBC3114001F2007 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDE1BE362CBC3114001F2007 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DDE1BE372CBC3114001F2007 /* GameRelatedExamUITests */,
+			);
+			name = GameRelatedExamUITests;
+			packageProductDependencies = (
+			);
+			productName = GameRelatedExamUITests;
+			productReference = DDE1BE342CBC3114001F2007 /* GameRelatedExamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDE1BE122CBC3113001F2007 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					DDE1BE192CBC3113001F2007 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					DDE1BE292CBC3114001F2007 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = DDE1BE192CBC3113001F2007;
+					};
+					DDE1BE332CBC3114001F2007 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = DDE1BE192CBC3113001F2007;
+					};
+				};
+			};
+			buildConfigurationList = DDE1BE152CBC3113001F2007 /* Build configuration list for PBXProject "GameRelatedExam" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDE1BE112CBC3113001F2007;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = DDE1BE1B2CBC3113001F2007 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDE1BE192CBC3113001F2007 /* GameRelatedExam */,
+				DDE1BE292CBC3114001F2007 /* GameRelatedExamTests */,
+				DDE1BE332CBC3114001F2007 /* GameRelatedExamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDE1BE182CBC3113001F2007 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE1BE282CBC3114001F2007 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE1BE322CBC3114001F2007 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDE1BE162CBC3113001F2007 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE1BE262CBC3114001F2007 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE1BE302CBC3114001F2007 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDE1BE2C2CBC3114001F2007 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDE1BE192CBC3113001F2007 /* GameRelatedExam */;
+			targetProxy = DDE1BE2B2CBC3114001F2007 /* PBXContainerItemProxy */;
+		};
+		DDE1BE362CBC3114001F2007 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDE1BE192CBC3113001F2007 /* GameRelatedExam */;
+			targetProxy = DDE1BE352CBC3114001F2007 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DDE1BE3C2CBC3114001F2007 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DDE1BE3D2CBC3114001F2007 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDE1BE3F2CBC3114001F2007 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GameRelatedExam/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cd.GameRelatedExam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDE1BE402CBC3114001F2007 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GameRelatedExam/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cd.GameRelatedExam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DDE1BE422CBC3114001F2007 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cd.GameRelatedExamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GameRelatedExam.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GameRelatedExam";
+			};
+			name = Debug;
+		};
+		DDE1BE432CBC3114001F2007 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cd.GameRelatedExamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GameRelatedExam.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GameRelatedExam";
+			};
+			name = Release;
+		};
+		DDE1BE452CBC3114001F2007 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cd.GameRelatedExamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GameRelatedExam;
+			};
+			name = Debug;
+		};
+		DDE1BE462CBC3114001F2007 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cd.GameRelatedExamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GameRelatedExam;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDE1BE152CBC3113001F2007 /* Build configuration list for PBXProject "GameRelatedExam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDE1BE3C2CBC3114001F2007 /* Debug */,
+				DDE1BE3D2CBC3114001F2007 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDE1BE3E2CBC3114001F2007 /* Build configuration list for PBXNativeTarget "GameRelatedExam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDE1BE3F2CBC3114001F2007 /* Debug */,
+				DDE1BE402CBC3114001F2007 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDE1BE412CBC3114001F2007 /* Build configuration list for PBXNativeTarget "GameRelatedExamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDE1BE422CBC3114001F2007 /* Debug */,
+				DDE1BE432CBC3114001F2007 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDE1BE442CBC3114001F2007 /* Build configuration list for PBXNativeTarget "GameRelatedExamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDE1BE452CBC3114001F2007 /* Debug */,
+				DDE1BE462CBC3114001F2007 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDE1BE122CBC3113001F2007 /* Project object */;
+}
